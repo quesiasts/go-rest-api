@@ -15,9 +15,9 @@ Como subir o servidor:
     3 - Logo após fazer a instalação dos pacotes go, rode:
     `docker-compose up`
     4 - Iniciará o banco de dados com o valor:
-    USER - root
-    PASS - root
-    HOST - root
+        USER - root
+        PASS - root
+        HOST - root
     5 - Instale os módulos Node abrindo a pasta de Frontend e rodando:
         - npm version
         - npm install
