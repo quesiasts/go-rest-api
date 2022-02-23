@@ -13,7 +13,7 @@ func main() {
 		{Id: 1, Nome: "Nome1", Historia: "Historia1"},
 		{Id: 2, Nome: "Nome2", Historia: "Historia2"},
 	}
-	database.ConectaBancoDeDados()
+	database.ConectaComBancoDeDados()
 	fmt.Println("Iniciando o servidor Rest com Go")
 	routes.HandleRequest()
 }
